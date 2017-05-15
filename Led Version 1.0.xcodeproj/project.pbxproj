@@ -12,6 +12,7 @@
 		DE9152341ECA2EC400A91364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9152321ECA2EC400A91364 /* Main.storyboard */; };
 		DE9152361ECA2EC400A91364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9152351ECA2EC400A91364 /* Assets.xcassets */; };
 		DE9152391ECA2EC400A91364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9152371ECA2EC400A91364 /* LaunchScreen.storyboard */; };
+		DE9152421ECA2EDA00A91364 /* green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9152411ECA2EDA00A91364 /* green@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DE9152351ECA2EC400A91364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE9152381ECA2EC400A91364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE91523A1ECA2EC400A91364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9152411ECA2EDA00A91364 /* green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				DE9152351ECA2EC400A91364 /* Assets.xcassets */,
 				DE9152371ECA2EC400A91364 /* LaunchScreen.storyboard */,
 				DE91523A1ECA2EC400A91364 /* Info.plist */,
+				DE9152401ECA2ECB00A91364 /* Resource */,
 			);
 			path = "Led Version 1.0";
+			sourceTree = "<group>";
+		};
+		DE9152401ECA2ECB00A91364 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DE9152411ECA2EDA00A91364 /* green@2x.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				DE9152391ECA2EC400A91364 /* LaunchScreen.storyboard in Resources */,
 				DE9152361ECA2EC400A91364 /* Assets.xcassets in Resources */,
+				DE9152421ECA2EDA00A91364 /* green@2x.png in Resources */,
 				DE9152341ECA2EC400A91364 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
